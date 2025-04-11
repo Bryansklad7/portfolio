@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; 
+  padding: 1rem;
+}
+main {
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +45,5 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
 }
